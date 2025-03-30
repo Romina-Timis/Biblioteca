@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Benvenuto, <span th:text="${username}"></span>!</h2>
+        <p>Questa è la tua area riservata.</p>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+</body>
+</html>
